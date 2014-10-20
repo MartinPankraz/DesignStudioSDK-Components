@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>EEX News Feed: Marktinformationen</title>
+    <description>EEX News FeedMarktinformationen</description>
+    <skipHours>
+    	<hour>23</hour> <hour>22</hour> <hour>21</hour> <hour>0</hour> <hour>1</hour>
+    	<hour>2</hour>  <hour>3</hour>  <hour>4</hour>  <hour>5</hour> <hour>6</hour>
+    	<hour>7</hour>
+    </skipHours>
+    <skipDays>
+    	<day>Saturday</day>
+    	<day>Sunday</day>
+    </skipDays>
+    <language>de</language>
+    <copyright>Copyright 2014, European Energy Exchange AG</copyright>
+    <pubDate>Wed, 15 Oct 2014 13:06:17 +0000</pubDate>
+    <lastBuildDate>Wed, 15 Oct 2014 13:06:17 +0000</lastBuildDate>
+    <ttl>5</ttl>
+	<link>http://www.eex.com/de</link>
+    <generator>conrad:// by EWERK IT GmbH</generator>
+	<image>
+		<url>http://www.eex.com/de/assets/images/logo.png</url>
+		<title>European Energy Exchange AG</title>
+		<link>http://www.eex.com/de</link>
+		<width>129</width>
+		<height>54</height>
+	</image>
+    <item>
+      <title>Marktinformation</title>
+      <description>16.10.2014&lt;br&gt;&lt;br&gt;Phelix Day Base: 41,90 €/MWh&lt;br&gt;Phelix Day Peak: 50,58 €/MWh</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">ticker_67545/2014-10-15 10:55:15</guid>
+            <pubDate>Wed, 15 Oct 2014 10:55:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Marktinformation</title>
+      <description>16.10.2014&lt;br&gt;&lt;br&gt;Swissix Day Base: 42,30 €/MWh&lt;br&gt;Swissix Day Peak: 50,97 €/MWh</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">ticker_67544/2014-10-15 09:10:38</guid>
+            <pubDate>Wed, 15 Oct 2014 09:10:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminmarkt Settlement-Preise</title>
+      <description>&lt;table width=&quot;900&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;Phelix Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Off-Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	    	&lt;tr&gt;
+    		&lt;td&gt;Wed 15/10/14&lt;/td&gt;
+    		&lt;td&gt;42,72 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;Wed 15/10/14&lt;/td&gt;
+    		&lt;td&gt;50,53 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+    	&lt;tr&gt;
+    		&lt;td&gt;WkEnd 18/10-19/10&lt;/td&gt;
+    		&lt;td&gt;26,09 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;WkEnd 18/10-19/10&lt;/td&gt;
+    		&lt;td&gt;n.a.&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;30,10 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;38,75 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;34,98 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;45,86 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;29,54 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;35,55 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;45,86 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;29,86 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;33,92 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;42,61 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;29,08 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;French Financial Power Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;37,38 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W&lt;/td&gt;
+		&lt;td&gt;– &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;48,00 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;61,00 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;54,25 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;66,11 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;42,78 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;53,13 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;NCG Natural Gas Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;GASPOOL Natural Gas Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;22,999 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;22,827 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,050 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;23,722 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Sum/15&lt;/td&gt;
+		&lt;td&gt;23,073 &amp;euro;/MWh&lt;/td&gt;
+				  &lt;td&gt;Sum/15&lt;/td&gt;
+		  &lt;td&gt;22,714 &amp;euro;/MWh&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;23,722 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;23,347 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+         &lt;table width=&quot;600&quot;&gt;
+        &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EU Carbon Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EUAA Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;6,08&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;5,82 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+                &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;CER Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;ERU Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;0,09&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;0,05 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+            &lt;/table&gt;
+    &lt;hr /&gt;
+    &lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | ARA Coal Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | RB Coal Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;71,20 US$/t&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;65,00 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;70,50 US$/t&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;65,95 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;71,84 US$/t&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;67,35 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">futures_2014-10-14</guid>
+            <pubDate>Tue, 14 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EGIX</title>
+      <description>Frontkontrakt 11/2014&lt;br/&gt;
+
+		EGIX Deutschland (Monatsmittelwert): 23,694 &amp;euro;/MWh&lt;br/&gt;
+		EGIX NCG (Monatsmittelwert): 23,802 &amp;euro;/MWh&lt;br/&gt;
+		EGIX GASPOOL (Monatsmittelwert): 23,570 &amp;euro;/MWh&lt;br/&gt;
+</description>
+      <link>http://www.eex.com/de/gas-index-table/2014-10-14</link>            	<guid isPermaLink="false">egix_2014-10-14</guid>
+            <pubDate>Tue, 14 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>European Emission Allowances</title>
+      <description>EUA Primary Auction Spot 2013-2020 | EU: 6,01 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">emissions_auction_2014-10-14 11:00:26</guid>
+            <pubDate>Tue, 14 Oct 2014 09:00:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminmarkt Settlement-Preise</title>
+      <description>&lt;table width=&quot;900&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;Phelix Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Off-Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	    	&lt;tr&gt;
+    		&lt;td&gt;Tue 14/10/14&lt;/td&gt;
+    		&lt;td&gt;41,69 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;Tue 14/10/14&lt;/td&gt;
+    		&lt;td&gt;47,03 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+    	&lt;tr&gt;
+    		&lt;td&gt;WkEnd 18/10-19/10&lt;/td&gt;
+    		&lt;td&gt;26,95 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;WkEnd 18/10-19/10&lt;/td&gt;
+    		&lt;td&gt;n.a.&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;30,86 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;38,94 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;35,23 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;46,20 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;29,75 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;35,76 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;46,13 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;30,03 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;33,90 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;42,59 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;29,06 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;French Financial Power Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;39,93 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W&lt;/td&gt;
+		&lt;td&gt;– &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;50,00 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;64,13 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;54,57 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;66,40 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;42,90 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;53,40 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;NCG Natural Gas Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;GASPOOL Natural Gas Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;22,973 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;22,801 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,150 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;23,782 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Sum/15&lt;/td&gt;
+		&lt;td&gt;23,154 &amp;euro;/MWh&lt;/td&gt;
+				  &lt;td&gt;Sum/15&lt;/td&gt;
+		  &lt;td&gt;22,804 &amp;euro;/MWh&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;23,850 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;23,450 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+         &lt;table width=&quot;600&quot;&gt;
+        &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EU Carbon Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EUAA Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;6,05&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;5,79 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+                &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;CER Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;ERU Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;0,09&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;0,05 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+            &lt;/table&gt;
+    &lt;hr /&gt;
+    &lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | ARA Coal Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | RB Coal Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;71,40 US$/t&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;65,53 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;70,73 US$/t&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;66,38 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;72,10 US$/t&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;67,50 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">futures_2014-10-13</guid>
+            <pubDate>Mon, 13 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EGIX</title>
+      <description>Frontkontrakt 11/2014&lt;br/&gt;
+
+		EGIX Deutschland (Monatsmittelwert): 23,775 &amp;euro;/MWh&lt;br/&gt;
+		EGIX NCG (Monatsmittelwert): 23,888 &amp;euro;/MWh&lt;br/&gt;
+		EGIX GASPOOL (Monatsmittelwert): 23,644 &amp;euro;/MWh&lt;br/&gt;
+</description>
+      <link>http://www.eex.com/de/gas-index-table/2014-10-13</link>            	<guid isPermaLink="false">egix_2014-10-13</guid>
+            <pubDate>Mon, 13 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>European Emission Allowances</title>
+      <description>EUA Primary Auction Spot 2013-2020 | EU: 5,88 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">emissions_auction_2014-10-13 11:00:39</guid>
+            <pubDate>Mon, 13 Oct 2014 09:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>EGIX</title>
+      <description>Frontkontrakt 11/2014&lt;br/&gt;
+
+		EGIX Deutschland (Monatsmittelwert): 23,864 &amp;euro;/MWh&lt;br/&gt;
+		EGIX NCG (Monatsmittelwert): 23,986 &amp;euro;/MWh&lt;br/&gt;
+		EGIX GASPOOL (Monatsmittelwert): 23,733 &amp;euro;/MWh&lt;br/&gt;
+</description>
+      <link>http://www.eex.com/de/gas-index-table/2014-10-10</link>            	<guid isPermaLink="false">egix_2014-10-10</guid>
+            <pubDate>Fri, 10 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminmarkt Settlement-Preise</title>
+      <description>&lt;table width=&quot;900&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;Phelix Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Off-Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	    	&lt;tr&gt;
+    		&lt;td&gt;Sat 11/10/14&lt;/td&gt;
+    		&lt;td&gt;34,44 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;Sat 11/10/14&lt;/td&gt;
+    		&lt;td&gt;37,17 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+    	&lt;tr&gt;
+    		&lt;td&gt;WkEnd 11/10-12/10&lt;/td&gt;
+    		&lt;td&gt;31,84 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;WkEnd 11/10-12/10&lt;/td&gt;
+    		&lt;td&gt;n.a.&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;32,75 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;44,88 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;35,89 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;46,95 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;30,36 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;36,27 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;46,54 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;30,60 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;34,26 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;42,87 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;29,47 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;French Financial Power Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;W43/14&lt;/td&gt;
+		&lt;td&gt;42,75 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W&lt;/td&gt;
+		&lt;td&gt;– &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;51,95 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;66,15 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;55,53 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;67,16 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;43,29 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;53,75 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;NCG Natural Gas Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;GASPOOL Natural Gas Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;23,355 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;23,165 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,538 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,220 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Sum/15&lt;/td&gt;
+		&lt;td&gt;23,499 &amp;euro;/MWh&lt;/td&gt;
+				  &lt;td&gt;Sum/15&lt;/td&gt;
+		  &lt;td&gt;23,223 &amp;euro;/MWh&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;24,156 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;23,887 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+         &lt;table width=&quot;600&quot;&gt;
+        &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EU Carbon Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EUAA Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;6,05&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;5,79 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+                &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;CER Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;ERU Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;0,09&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;0,05 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+            &lt;/table&gt;
+    &lt;hr /&gt;
+    &lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | ARA Coal Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | RB Coal Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;71,60 US$/t&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;66,45 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;71,05 US$/t&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;67,05 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;72,48 US$/t&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;68,10 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">futures_2014-10-10</guid>
+            <pubDate>Fri, 10 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>European Emission Allowances</title>
+      <description>EUA Primary Auction Spot 2013-2020 | DE: 6,03 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">emissions_auction_2014-10-10 11:00:31</guid>
+            <pubDate>Fri, 10 Oct 2014 09:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminmarkt Settlement-Preise</title>
+      <description>&lt;table width=&quot;900&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;Phelix Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Off-Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	    	&lt;tr&gt;
+    		&lt;td&gt;Fri 10/10/14&lt;/td&gt;
+    		&lt;td&gt;39,44 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;Fri 10/10/14&lt;/td&gt;
+    		&lt;td&gt;45,54 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+    	&lt;tr&gt;
+    		&lt;td&gt;WkEnd 11/10-12/10&lt;/td&gt;
+    		&lt;td&gt;32,11 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;WkEnd 11/10-12/10&lt;/td&gt;
+    		&lt;td&gt;n.a.&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;34,88 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;44,94 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;36,06 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;47,40 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;30,39 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;36,52 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;46,86 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;30,81 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;34,47 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;43,25 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;29,58 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;French Financial Power Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;41,38 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;53,25 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;52,84 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;66,65 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;55,92 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;67,00 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;43,41 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;53,63 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;NCG Natural Gas Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;GASPOOL Natural Gas Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;23,704 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;23,592 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,721 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,302 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Sum/15&lt;/td&gt;
+		&lt;td&gt;23,682 &amp;euro;/MWh&lt;/td&gt;
+				  &lt;td&gt;Sum/15&lt;/td&gt;
+		  &lt;td&gt;23,299 &amp;euro;/MWh&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;24,351 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;24,004 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+         &lt;table width=&quot;600&quot;&gt;
+        &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EU Carbon Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EUAA Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;6,11&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;5,85 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+                &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;CER Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;ERU Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;0,10&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;0,06 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+            &lt;/table&gt;
+    &lt;hr /&gt;
+    &lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | ARA Coal Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | RB Coal Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;72,30 US$/t&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;67,05 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;72,00 US$/t&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;67,70 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;73,33 US$/t&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;68,75 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">futures_2014-10-09</guid>
+            <pubDate>Thu, 09 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EGIX</title>
+      <description>Frontkontrakt 11/2014&lt;br/&gt;
+
+		EGIX Deutschland (Monatsmittelwert): 23,925 &amp;euro;/MWh&lt;br/&gt;
+		EGIX NCG (Monatsmittelwert): 24,037 &amp;euro;/MWh&lt;br/&gt;
+		EGIX GASPOOL (Monatsmittelwert): 23,804 &amp;euro;/MWh&lt;br/&gt;
+</description>
+      <link>http://www.eex.com/de/gas-index-table/2014-10-09</link>            	<guid isPermaLink="false">egix_2014-10-09</guid>
+            <pubDate>Thu, 09 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>European Emission Allowances</title>
+      <description>EUA Primary Auction Spot 2013-2020 | EU: 6,06 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">emissions_auction_2014-10-09 11:00:35</guid>
+            <pubDate>Thu, 09 Oct 2014 09:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terminmarkt Settlement-Preise</title>
+      <description>&lt;table width=&quot;900&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;Phelix Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Off-Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	    	&lt;tr&gt;
+    		&lt;td&gt;Thu 9/10/14&lt;/td&gt;
+    		&lt;td&gt;32,60 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;Thu 9/10/14&lt;/td&gt;
+    		&lt;td&gt;38,06 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+    	&lt;tr&gt;
+    		&lt;td&gt;WkEnd 11/10-12/10&lt;/td&gt;
+    		&lt;td&gt;31,80 &amp;euro;/MWh&lt;/td&gt;
+    		&lt;td&gt;WkEnd 11/10-12/10&lt;/td&gt;
+    		&lt;td&gt;n.a.&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    	&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;35,88 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;46,00 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;36,31 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;47,48 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;30,73 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;36,55 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;46,83 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;30,87 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;34,40 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;43,10 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;29,56 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;4&quot;&gt;French Financial Power Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Base&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis Peak&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;42,00 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;W42/14&lt;/td&gt;
+		&lt;td&gt;53,00 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;52,88 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;66,74 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;55,77 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;67,09 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;43,43 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;53,58 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;NCG Natural Gas Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;GASPOOL Natural Gas Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;23,844 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;23,682 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,760 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;24,564 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Sum/15&lt;/td&gt;
+		&lt;td&gt;23,760 &amp;euro;/MWh&lt;/td&gt;
+				  &lt;td&gt;Sum/15&lt;/td&gt;
+		  &lt;td&gt;23,533 &amp;euro;/MWh&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;24,470 &amp;euro;/MWh&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;24,226 &amp;euro;/MWh&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+         &lt;table width=&quot;600&quot;&gt;
+        &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EU Carbon Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;EUAA Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;6,05&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;5,79 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+                &lt;tr&gt;
+                            &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;CER Futures&lt;/th&gt;
+                                        &lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;ERU Futures&lt;/th&gt;
+                    &lt;/tr&gt;
+        &lt;tr&gt;
+                            &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                                        &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+                &lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                                    &lt;td&gt;MidDec 2014&lt;/td&gt;
+                    &lt;td&gt;0,11&amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                                            &lt;td&gt;MidDec 2014&lt;/td&gt;
+                        &lt;td&gt;0,07 &amp;euro;/t&amp;nbsp;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/td&gt;
+                                                &lt;/tr&gt;
+            &lt;/table&gt;
+    &lt;hr /&gt;
+    &lt;table width=&quot;600&quot;&gt;
+	&lt;tr&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | ARA Coal Futures&lt;/th&gt;
+		&lt;th style=&quot;font-size: 1.2em&quot; align=&quot;left&quot; colspan=&quot;2&quot;&gt;Terminmarkt | RB Coal Futures&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Kontrakt&lt;/th&gt;
+		&lt;th width=&quot;100&quot; align=&quot;left&quot;&gt;Preis&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;72,05 US$/t&lt;/td&gt;
+		&lt;td&gt;Nov-14&lt;/td&gt;
+		&lt;td&gt;67,65 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;71,95 US$/t&lt;/td&gt;
+		&lt;td&gt;1/15&lt;/td&gt;
+		&lt;td&gt;68,25 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;73,33 US$/t&lt;/td&gt;
+		&lt;td&gt;Cal-15&lt;/td&gt;
+		&lt;td&gt;68,95 US$/t&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+
+</description>
+      <link>http://www.eex.com/de</link>            	<guid isPermaLink="false">futures_2014-10-08</guid>
+            <pubDate>Wed, 08 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EGIX</title>
+      <description>Frontkontrakt 11/2014&lt;br/&gt;
+
+		EGIX Deutschland (Monatsmittelwert): 23,947 &amp;euro;/MWh&lt;br/&gt;
+		EGIX NCG (Monatsmittelwert): 24,048 &amp;euro;/MWh&lt;br/&gt;
+		EGIX GASPOOL (Monatsmittelwert): 23,834 &amp;euro;/MWh&lt;br/&gt;
+</description>
+      <link>http://www.eex.com/de/gas-index-table/2014-10-08</link>            	<guid isPermaLink="false">egix_2014-10-08</guid>
+            <pubDate>Wed, 08 Oct 2014 16:30:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

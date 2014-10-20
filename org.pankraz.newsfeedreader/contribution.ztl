@@ -1,0 +1,11 @@
+class org.pankraz.newsfeedreader.reader extends Component {
+	
+	String setFeedUrl(String url_string){*
+		this.feedurldimension = url_string;
+	*}
+	
+	String setXslUrl(String url_string){*
+		this.xslurldimension = url_string;
+	*}
+	
+}

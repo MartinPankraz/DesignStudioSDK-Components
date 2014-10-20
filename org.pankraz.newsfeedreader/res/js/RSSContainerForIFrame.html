@@ -1,0 +1,67 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type='text/javascript'>
+	google.load("feeds", "1");
+	
+	function getSearchParameters() {
+	    var prmstr = window.location.search.substr(1);
+	    return prmstr != null && prmstr != "" ? transformToAssocArray(prmstr) : {};
+	}
+	
+	function transformToAssocArray( prmstr ) {
+	  var params = {};
+	  var prmarr = prmstr.split("&");
+	  for ( var i = 0; i < prmarr.length; i++) {
+	      var tmparr = prmarr[i].split("=");
+	      params[tmparr[0]] = tmparr[1];
+	  }
+	  return params;
+	}
+
+	function loadXMLDoc(filename) {
+		if (window.ActiveXObject) {
+			xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		} else {
+			xhttp = new XMLHttpRequest();
+		}
+		xhttp.open("GET", filename, false);
+		try {
+			xhttp.responseType = "msxml-document";
+		} catch (err) {
+		} // Helping IE11
+		xhttp.send("");
+		return xhttp.responseXML;
+	}
+
+    function initialize() {
+	  var params = getSearchParameters();
+
+	  var feedUrl = params['feed'];
+	  var xsl = loadXMLDoc(params['xsl']);      
+	  var feed = new google.feeds.Feed(feedUrl);
+	  feed.setResultFormat(google.feeds.Feed.XML_FORMAT);
+      feed.load(function(result) {
+        if (!result.error) {
+		  var xml = result.xmlDocument;
+		  if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+					var ex = xml.transformNode(xsl);
+					document.getElementById("feed").innerHTML = ex;
+				}
+				// code for Chrome, Firefox, Opera, etc.
+				else if (document.implementation && document.implementation.createDocument) {
+					var xsltProcessor = new XSLTProcessor();
+					xsltProcessor.importStylesheet(xsl);
+					var resultDocument = xsltProcessor.transformToFragment(xml, document);
+					document.getElementById("feed").appendChild(resultDocument);
+				}
+        }
+      });
+    }
+    google.setOnLoadCallback(initialize);
+</script>
+</head>
+<body>
+	<div id="feed"></div>
+</body>
+</html>

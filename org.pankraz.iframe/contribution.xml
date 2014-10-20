@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension xmlns="http://www.sap.com/bi/zen/sdk" id="org.pankraz.iframe"
+	title="Design Studio SDK Extension MartinPankraz" version="1.0"
+	vendor="Martin Pankraz">
+	<group title="Martin's Components"
+		id="PankrazComponents" visible="true" />
+	<component id="frame" title="Generic Iframe"
+		icon="res/icon.png" handlerType="div" databound="false" group="PankrazComponents">
+		<jsInclude>res/js/component.js</jsInclude>
+		<property type="String" title="IFrame src URL"
+			id="urldimension">
+		</property>
+		<initialization>
+			<defaultValue property="WIDTH">300</defaultValue>
+			<defaultValue property="HEIGHT">200</defaultValue>
+			<defaultValue property="runtimedata">{}</defaultValue>
+			<defaultValue property="urldimension">
+				http://www.convista.com/
+			</defaultValue>
+		</initialization>
+	</component>
+</sdkExtension>

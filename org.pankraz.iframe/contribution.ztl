@@ -1,0 +1,7 @@
+class org.pankraz.iframe.frame extends Component {
+	
+	String setIframeSrcUrl(String url_string){*
+		this.urldimension = url_string;
+	*}
+	
+}
