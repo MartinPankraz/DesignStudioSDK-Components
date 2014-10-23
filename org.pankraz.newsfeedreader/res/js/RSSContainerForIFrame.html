@@ -34,20 +34,36 @@
 		return xhttp.responseXML;
 	}
 
-    function initialize() {
-	  var params = getSearchParameters();
+	function initialize() {
+		var params = getSearchParameters();
 
-	  var feedUrl = params['feed'];
-	  var xsl = loadXMLDoc(params['xsl']);      
-	  var feed = new google.feeds.Feed(feedUrl);
-	  feed.setResultFormat(google.feeds.Feed.XML_FORMAT);
-      feed.load(function(result) {
-        if (!result.error) {
-		  var xml = result.xmlDocument;
-		  if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
-					var ex = xml.transformNode(xsl);
-					document.getElementById("feed").innerHTML = ex;
-				}
+	  	var feedUrl = params['feed'];
+	  	var xsl = loadXMLDoc(params['xsl']);      
+	  	var feed = new google.feeds.Feed(feedUrl);
+	  	feed.setResultFormat(google.feeds.Feed.XML_FORMAT);
+      	feed.load(function(result) {
+	    try {
+	      	if (!result.error) {
+				var xml = result.xmlDocument;
+			  	if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+					if (typeof (xml.transformNode) != "undefined") {
+			  			var ex = xml.transformNode(xsl);
+						document.getElementById("feed").innerHTML = ex;
+				  	}//IE10
+					else {
+
+				            if (window.ActiveXObject) {
+				                var xslt = new ActiveXObject("Msxml2.XSLTemplate");
+				                var xslDoc = new ActiveXObject("Msxml2.FreeThreadedDOMDocument");
+				                xslDoc.loadXML(xsl.xml);
+				                xslt.stylesheet = xslDoc;
+				                var xslProc = xslt.createProcessor();
+				                xslProc.input = xml;
+				                xslProc.transform();
+				                document.getElementById("feed").innerHTML = xslProc.output;
+				            }
+				  	}
+			  	}
 				// code for Chrome, Firefox, Opera, etc.
 				else if (document.implementation && document.implementation.createDocument) {
 					var xsltProcessor = new XSLTProcessor();
@@ -55,8 +71,14 @@
 					var resultDocument = xsltProcessor.transformToFragment(xml, document);
 					document.getElementById("feed").appendChild(resultDocument);
 				}
+	        }
+	    }
+        catch (e) {
+            // 4
+            alert("The type [XSLTProcessor] are not supported by this browser, can't transform XML document to HTML string!");
+            return null;
         }
-      });
+      	});
     }
     google.setOnLoadCallback(initialize);
 </script>

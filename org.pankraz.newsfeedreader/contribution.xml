@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sdkExtension xmlns="http://www.sap.com/bi/zen/sdk" id="org.pankraz.newsfeedreader"
-	title="Design Studio SDK Extension MartinPankraz" version="1.0"
+	title="Design Studio SDK Extension MartinPankraz NewsFeedReader" version="1.0"
 	vendor="Martin Pankraz">
 	<group title="Martin's Components"
 		id="PankrazComponents" visible="true" />

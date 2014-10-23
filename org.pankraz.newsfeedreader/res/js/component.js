@@ -37,8 +37,11 @@ sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /**
 	 */
 	this.init = function() {
 		
+		this.projectLocationUrl = "";
 		//Workaround to extract relative project path to address project resources properly in local mode and bi-plattform
-		this.projectLocationUrl = scriptSrc.substring(0, scriptSrc.indexOf("js/")+3);
+		if(scriptSrc){
+			this.projectLocationUrl = scriptSrc.substring(0, scriptSrc.indexOf("js/")+3);	
+		}
 		
 	};
 	/**
