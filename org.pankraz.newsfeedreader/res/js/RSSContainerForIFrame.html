@@ -26,11 +26,9 @@
 			xhttp = new XMLHttpRequest();
 		}
 		xhttp.open("GET", filename, false);
-		try {
-			xhttp.responseType = "msxml-document";
-		} catch (err) {
-		} // Helping IE11
-		xhttp.send("");
+		//@TODO fix this IE11 bug causing Design Studio to crash 14.11.14
+		//try {xhttp.responseType = "msxml-document";} catch (err) {alert(err);} // Helping IE11
+		xhttp.send();
 		return xhttp.responseXML;
 	}
 
@@ -45,23 +43,20 @@
 	    try {
 	      	if (!result.error) {
 				var xml = result.xmlDocument;
-			  	if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+			  	if (xhttp.responseType == "msxml-document") {
 					if (typeof (xml.transformNode) != "undefined") {
 			  			var ex = xml.transformNode(xsl);
 						document.getElementById("feed").innerHTML = ex;
 				  	}//IE10
-					else {
-
-				            if (window.ActiveXObject) {
-				                var xslt = new ActiveXObject("Msxml2.XSLTemplate");
-				                var xslDoc = new ActiveXObject("Msxml2.FreeThreadedDOMDocument");
-				                xslDoc.loadXML(xsl.xml);
-				                xslt.stylesheet = xslDoc;
-				                var xslProc = xslt.createProcessor();
-				                xslProc.input = xml;
-				                xslProc.transform();
-				                document.getElementById("feed").innerHTML = xslProc.output;
-				            }
+					else if(ActiveXObject){
+						var xslt = new ActiveXObject("Msxml2.XSLTemplate");
+						var xslDoc = new ActiveXObject("Msxml2.FreeThreadedDOMDocument");
+						xslDoc.loadXML(xsl.xml);
+						xslt.stylesheet = xslDoc;
+						var xslProc = xslt.createProcessor();
+						xslProc.input = xml;
+						xslProc.transform();
+						document.getElementById("feed").innerHTML = xslProc.output;
 				  	}
 			  	}
 				// code for Chrome, Firefox, Opera, etc.
@@ -75,7 +70,7 @@
 	    }
         catch (e) {
             // 4
-            alert("The type [XSLTProcessor] are not supported by this browser, can't transform XML document to HTML string!");
+            alert("The type [XSLTProcessor] is not supported by this browser, can't transform XML document to HTML string! Probably Design Studios IE implementation is currently broken! Other browsers should be fine.");
             return null;
         }
       	});
