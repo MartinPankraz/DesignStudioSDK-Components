@@ -5,7 +5,7 @@ Design Studio SDK Components by Martin Pankraz.
 
 Prerequisites
 --------------------------
-Design Studio, Release 1.3 SP1 is required.
+Design Studio, Release 1.3 SP1 or higher.
 
 Content
 --------------------------
