@@ -22,4 +22,4 @@ Feed URL and XSL file URL are customizable (XSL, however, must reside within the
 
 
 
-martin.pankraz@convista.com for feedback, suggestions or just a chat about Design Studio SDK awesomeness if you like.
+martin.pankraz@convista.com for feedback, suggestions or just a chat about the awesomness of Design Studio SDK if you like.
