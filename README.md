@@ -36,5 +36,14 @@ Necessary ConVista maps properties settings:
 
 Please note that you will need at least SAP Design Studio 1.4 to use my custom data source.
 
+Installation
+------------
+- Download the DesignStudioSDKComponentsPack.zip ZIP file (you may do this by clicking the Download ZIP button) for DS 1.3+ compatible IFrame and RSS feed reader or
+- Download DesignStudioSDKComponentsPack_14.zip with custom data source included (only DS 1.4+)
+- Click Tools in Design Studio > install Extension to Design Studio…
+- Choose “archive” as installation source (navigate to ZIP file) in Dialogue
+- Accept license and restart Design Studio
+- Have fun using my extensions
+
 ___________________________________________________________________________________________
 martin.pankraz@convista.com for feedback, suggestions or just a chat about the awesomness of Design Studio SDK if you like.
