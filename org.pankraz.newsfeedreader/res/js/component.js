@@ -61,19 +61,10 @@ sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /**
 			xslLocation += saveXslUrlDimension;
 		}
 		
-		if(this.frame === undefined){			
-			this.frame = document.createElement("IFRAME");														//should look like /aad/zen/mimes... in local mode
-			var url_string = encodeURI(this.projectLocationUrl+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation);
-			this.frame.setAttribute("src", url_string);
-			
-			this.$(document.body).append(this.frame);
+		var url_string = encodeURI(this.projectLocationUrl+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation);
 		
-		}else{
-			this.frame.style.visibility = "hidden";
-			var url_string = encodeURI(this.projectLocationUrl+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation);
-			this.frame.setAttribute("src", url_string);
-			this.frame.style.visibility = "visible";
-		}
+		var html = '<iframe src="'+url_string+'" width="auto" height="auto"></iframe>';			
+		this.$().html(html);
 		
 	};
 	

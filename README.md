@@ -5,7 +5,7 @@ Design Studio SDK Components by Martin Pankraz.
 
 Prerequisites
 --------------------------
-Design Studio, Release 1.3 SP1 or higher.
+Design Studio, Release 1.4 SP1 or higher.
 
 Content
 --------------------------
@@ -38,8 +38,7 @@ Please note that you will need at least SAP Design Studio 1.4 to use my custom d
 
 Installation
 ------------
-- Download the DesignStudioSDKComponentsPack.zip ZIP file (you may do this by clicking the Download ZIP button) for DS 1.3+ compatible IFrame and RSS feed reader or
-- Download DesignStudioSDKComponentsPack_14.zip with custom data source included (only DS 1.4+)
+- Download DesignStudioSDKComponentsPack_14.zip (only DS 1.4+)
 - Click Tools in Design Studio > install Extension to Design Studio…
 - Choose “archive” as installation source (navigate to ZIP file) in Dialogue
 - Accept license and restart Design Studio

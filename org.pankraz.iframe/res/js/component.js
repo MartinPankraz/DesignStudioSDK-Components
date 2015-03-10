@@ -40,18 +40,8 @@ sap.designstudio.sdk.Component.subclass("org.pankraz.iframe.frame", /** @memberO
 	 * @function afterUpdate
 	 */
 	this.afterUpdate = function() {
-		
-		if(this.frame === undefined){
-			this.frame = document.createElement("IFRAME");
-			this.frame.setAttribute("src", saveUrlDimension);
-			
-			this.$(document.body).append(this.frame);
-		
-		}else{
-			this.frame.style.visibility = "hidden";
-			this.frame.setAttribute("src", saveUrlDimension);
-			this.frame.style.visibility = "visible";
-		}
+		var html = '<iframe src="'+saveUrlDimension+'" width="auto" height="auto"></iframe>';			
+		this.$().html(html);
 	};
 	
 	/**
