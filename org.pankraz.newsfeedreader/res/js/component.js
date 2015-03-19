@@ -29,7 +29,7 @@ sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /**
 	var saveXslUrlDimension			= null;
 	var saveprojectPrefixDimension	= null;
 	
-	var rss_container				= 'RSSContainerForIFrame.html?';
+	var rss_container				= 'RSSContainerForIFrame.html?' + Math.random() + "&";	// Cache-busting
 	
 	/**
 	 * @desc First function called during SAP Design Studio Plugin Lifecycle
