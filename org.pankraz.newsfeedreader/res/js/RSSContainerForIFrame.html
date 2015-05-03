@@ -74,6 +74,14 @@
 			return null;
         }
       	});
+      	//add link tag to reference custom css
+      	if(params['css'] !== undefined){
+	      	var link = document.createElement('link');
+				link.rel = "stylesheet";
+				link.href = params['css'];//"http://localhost:57003/aad/zen/mimes/TEST_RSS/test.css";
+				link.type = "text/css";
+	      	document.head.appendChild(link);
+      	}
     }
     google.setOnLoadCallback(initialize);
 </script>

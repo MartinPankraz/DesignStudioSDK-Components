@@ -14,6 +14,9 @@
 		<property type="String" title="XSL URL"
 			id="xslurldimension">
 		</property>
+		<property type="String" title="Custom CSS URL"
+			id="cssurldimension">
+		</property>
 		<property type="String" title="Project Prefix"
 			id="projectprefixdimension">
 		</property>
@@ -26,6 +29,9 @@
 			</defaultValue>
 			<defaultValue property="xslurldimension">
 				test/rss.xsl
+			</defaultValue>
+			<defaultValue property="cssurldimension">
+				http://localhost:57003/aad/zen/mimes/YOUR_APP_NAME/test.css
 			</defaultValue>
 			<defaultValue property="projectprefixdimension">
 				/aad/
