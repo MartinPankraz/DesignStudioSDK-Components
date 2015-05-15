@@ -20,7 +20,10 @@ As an extension of the component mentioned above, the NewsFeedReader utilizes th
 
 Feed URL and XSL file URL are customizable (XSL, however, must reside within the same domain). The component provides a default stylesheet to transform XML (RSS) into XHTML. At first use of the component you might encounter an error, which is related to a Design Studio BUG when dropping an SDK component onto a blank app (only with DS 1.3). Just ignore the message, save and reload your app. One more configuration step is necessary so that the component works correctly. Put your application prefix in the components properties (default is "/aad/"). You can look it up in your URL while running a Design Studio App. It will be located next to \<web address\>:\<port\> and before "web.do".
 
-If you want to apply custom CSS styling to the IFrame holding the feed just use the property "Custom CSS URL". For example point the url to your local application: http://localhost:57003/aad/zen/mimes/YOUR_APP_NAME/test.css
+If you want to apply custom CSS styling to the IFrame holding the feed just use the property "Custom CSS URL". For example point the url to your local application:
+http://localhost:57003/aad/zen/mimes/YOUR_APP_NAME/test.css
+
+But keep in mind that you might need to fix your jetty port for local mode (Tools -> Preferences -> Network Port)
 
 <b>MapsExampleDataSource (only DS 1.4+)</b>
 
