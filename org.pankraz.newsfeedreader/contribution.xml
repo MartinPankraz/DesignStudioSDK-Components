@@ -17,9 +17,6 @@
 		<property type="String" title="Custom CSS URL"
 			id="cssurldimension">
 		</property>
-		<property type="String" title="Project Prefix"
-			id="projectprefixdimension">
-		</property>
 		<initialization>
 			<defaultValue property="WIDTH">300</defaultValue>
 			<defaultValue property="HEIGHT">200</defaultValue>
@@ -32,9 +29,6 @@
 			</defaultValue>
 			<defaultValue property="cssurldimension">
 				http://localhost:57003/aad/zen/mimes/YOUR_APP_NAME/test.css
-			</defaultValue>
-			<defaultValue property="projectprefixdimension">
-				/aad/
 			</defaultValue>
 		</initialization>
 	</component>

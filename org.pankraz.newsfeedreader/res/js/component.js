@@ -20,14 +20,14 @@
 //Workaround to extract relative project path to address project ressources properly in local mode and bi-plattform
 //@see http://scn.sap.com/community/businessobjects-design-studio/blog/2014/08/15/sdk-tips-and-tricks-resources-and-images
 (function() {
-var scriptSrc = $("script:last").attr("src");
+var scriptSrc = $("script:last")[0].src;//.attr("src");
+
 sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /** @memberOf org.pankraz.newsfeedreader.reader*/function() {
 
 	var meta_data 					= null;
 //	var runtime_data 				= null;
 	var saveFeedUrlDimension 		= null;
 	var saveXslUrlDimension			= null;
-	var saveprojectPrefixDimension	= null;
 	var saveCSSUrlDimension			= null;
 	var that						= this;
 	
@@ -55,7 +55,7 @@ sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /**
 	 */
 	this.afterUpdate = function() {
 		//Determin if user wants to use default XSL or not due to special internal path handling
-		var xslLocation = saveprojectPrefixDimension+this.projectLocationUrl;
+		var xslLocation = this.projectLocationUrl;
 		if(saveXslUrlDimension.indexOf("http://") !== -1 || saveXslUrlDimension.indexOf("https://") !== -1){
 			xslLocation = saveXslUrlDimension;
 		}
@@ -120,14 +120,6 @@ sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /**
 		}
 	};
 	
-	this.projectprefixdimension = function(value) {
-		if (value === undefined) {
-			return saveprojectPrefixDimension;
-		} else {
-			saveprojectPrefixDimension = encodeURI(value);
-			return this;
-		}
-	};
 });
 
 })();

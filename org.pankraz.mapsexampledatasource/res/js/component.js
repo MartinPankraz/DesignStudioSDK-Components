@@ -18,7 +18,8 @@
  * limitations under the License. 
  */
 (function() {
-var scriptSrc = $("script:last").attr("src");
+var scriptSrc = $("script:last")[0].src;
+
 sap.designstudio.sdk.DataBuffer.subclass("org.pankraz.mapsexampledatasource.MapsExampleDataSource", /** @memberOf org.pankraz.mapsexampledatasource.MapsExampleDataSource*/function() {
 
 	var that = this;
