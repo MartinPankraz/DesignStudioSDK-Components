@@ -19,6 +19,10 @@
  */
 (function() {
 var scriptSrc = $("script:last")[0].src;
+//tmp hack for local mode in DS15 (maybe BIP as well?)
+if(scriptSrc === ""){
+	scriptSrc = '/aad/zen/mimes/sdk_include/org.pankraz.mapsexampledatasource/res/js/';
+}
 
 sap.designstudio.sdk.DataBuffer.subclass("org.pankraz.mapsexampledatasource.MapsExampleDataSource", /** @memberOf org.pankraz.mapsexampledatasource.MapsExampleDataSource*/function() {
 
