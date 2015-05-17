@@ -44,7 +44,8 @@ Please note that you will need at least SAP Design Studio 1.4 to use my custom d
 
 <b>OpenStreetMap Requirejs example</b>
 
-This OpenStreetMap implementation shows how to integrate external libraries into DesignStudio SDK extensions using Requirejs. See also my blog entry on SCN: 
+This OpenStreetMap implementation shows how to integrate external libraries into DesignStudio SDK extensions using Requirejs. See also my blog entry on SCN:
+http://scn.sap.com/community/businessobjects-design-studio/blog/2015/05/17/requirejs-demystified 
 
 
 Installation
