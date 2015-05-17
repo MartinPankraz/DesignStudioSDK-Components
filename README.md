@@ -42,6 +42,11 @@ Necessary ConVista maps properties settings:
 
 Please note that you will need at least SAP Design Studio 1.4 to use my custom data source.
 
+<b>OpenStreetMap Requirejs example</b>
+
+This OpenStreetMap implementation shows how to integrate external libraries into DesignStudio SDK extensions using Requirejs. See also my blog entry on SCN: 
+
+
 Installation
 ------------
 - Download DesignStudioSDKComponentsPack_14.zip (only DS 1.4+)

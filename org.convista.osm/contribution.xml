@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension xmlns="http://www.sap.com/bi/zen/sdk" id="org.convista.osm"
+	title="Design Studio SDK Extension OpenStreetMap Requirejs example" version="1.0"
+	vendor="Martin Pankraz">
+	<group title="Martin's Components"
+		id="PankrazComponents" visible="true" />
+	<component id="DataMap" title="OpenStreetMap Requirejs example"
+		icon="res/icon.png" handlerType="div" databound="false" group="PankrazComponents">
+		<jsInclude>res/js/component.js</jsInclude>
+		<cssInclude>res/js/css/leaflet.css</cssInclude>
+		<initialization>
+		<defaultValue property="WIDTH">200</defaultValue>
+		<defaultValue property="HEIGHT">200</defaultValue>
+		</initialization>
+	</component>
+</sdkExtension>
