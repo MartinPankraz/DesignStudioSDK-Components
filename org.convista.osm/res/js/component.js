@@ -20,6 +20,9 @@
 (function() {
 	/** path recognition **/
 	 var myScript = $("script:last")[0].src;
+	 if(sap.zen.createStaticSdkMimeUrl != undefined) {
+		 myScript = sap.zen.createStaticSdkMimeUrl("org.convista.osm", "res/js/");
+	 }
 	 if(myScript === ""){
 		 myScript = '/aad/zen/mimes/sdk_include/org.convista.osm/res/js/';
 	 }
