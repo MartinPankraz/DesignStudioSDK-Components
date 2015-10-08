@@ -18,7 +18,12 @@
  * limitations under the License. 
  */
 (function() {
+/** path recognition **/
 var scriptSrc = $("script:last")[0].src;
+
+if(sap.zen.createStaticSdkMimeUrl != undefined) {
+	scriptSrc = sap.zen.createStaticSdkMimeUrl("org.pankraz.mapsexampledatasource", "res/js/");
+}
 //tmp hack for local mode in DS15 (maybe BIP as well?)
 if(scriptSrc === ""){
 	scriptSrc = '/aad/zen/mimes/sdk_include/org.pankraz.mapsexampledatasource/res/js/';
@@ -103,7 +108,14 @@ sap.designstudio.sdk.DataBuffer.subclass("org.pankraz.mapsexampledatasource.Maps
 		var result = [];
 		var tuples = [];
 		var data = [];
-		var jsonTextLines = JSON.parse(jsonText);
+		var jsonTextLines = "";
+		
+		if (typeof jsonText == 'object') {
+			jsonTextLines = jsonText;
+		}else{
+			jsonTextLines = JSON.parse(jsonText);
+		}
+
 		tuples = jsonTextLines.tuples;
 		data = jsonTextLines.data;
 		for(var i=0;i<tuples.length;i++){

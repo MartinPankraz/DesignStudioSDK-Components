@@ -21,6 +21,10 @@
 //@see http://scn.sap.com/community/businessobjects-design-studio/blog/2014/08/15/sdk-tips-and-tricks-resources-and-images
 (function() {
 var scriptSrc = $("script:last")[0].src;//.attr("src");
+
+if(sap.zen.createStaticSdkMimeUrl != undefined) {
+	scriptSrc = sap.zen.createStaticSdkMimeUrl("org.pankraz.newsfeedreader", "res/js/");
+}
 //tmp hack for local mode in DS15 (maybe BIP as well?)
 if(scriptSrc === ""){
 	scriptSrc = '/aad/zen/mimes/sdk_include/org.pankraz.newsfeedreader/res/js/';
