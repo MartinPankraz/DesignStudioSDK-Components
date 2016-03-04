@@ -64,7 +64,7 @@ sap.designstudio.sdk.DataBuffer.subclass("org.pankraz.mapsexampledatasource.Maps
 			"text":"Meldungsart",
 			"axis":"ROWS",
 			"axis_index":1,
-			"members":[{"key":"33","text":null},{"key":"30","text":null},{"key":"20","text":null},{"key":"ZC","text":null},{"key":"23","text":null},{"key":"24","text":null},{"key":"54","text":null},{"key":"ZA","text":null},{"key":"SUMME","text":"Ergebnis","type":"RESULT"}]
+			"members":[{"key":"33","text":"33"},{"key":"30","text":"30"},{"key":"20","text":"20"},{"key":"ZC","text":"ZC"},{"key":"23","text":"23"},{"key":"24","text":"24"},{"key":"54","text":"54"},{"key":"ZA","text":"ZA"}]
 			},
 			{
 			"key":"0DATE",
