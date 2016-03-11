@@ -2,33 +2,25 @@
 <sdkExtension xmlns="http://www.sap.com/bi/zen/sdk" id="org.pankraz.newsfeedreader"
 	title="Design Studio SDK Extension MartinPankraz NewsFeedReader" version="1.0"
 	vendor="Martin Pankraz">
-	<group title="Martin's Components"
-		id="PankrazComponents" visible="true" />
+	<group title="Martin's Components" id="PankrazComponents" visible="true" />
+	
 	<component id="reader" title="NewsFeedReader (RSS)"
-		icon="res/icon.png" handlerType="div" databound="false" group="PankrazComponents">
-		<jsInclude>res/js/component.js</jsInclude>
-		<cssInclude>res/js/css/iframe.css</cssInclude>
-		<property type="String" title="RSS Feed URL"
-			id="feedurldimension">
+		icon="res/icon.png" handlerType="div" databound="false" group="PankrazComponents"
+		modes="commons m" >
+		
+		<requireJs modes="commons m">res/js/component</requireJs>
+		
+		<property type="String" title="RSS Feed URL" id="feedurldimension"></property>
+		<property type="Url" title="XSL URL" id="xslurldimension"></property>
+		<property type="Url" title="Custom CSS URL" id="cssurldimension">
+			<option name="kind" value="CSS"/>
 		</property>
-		<property type="String" title="XSL URL"
-			id="xslurldimension">
-		</property>
-		<property type="String" title="Custom CSS URL"
-			id="cssurldimension">
-		</property>
+
 		<initialization>
 			<defaultValue property="WIDTH">300</defaultValue>
 			<defaultValue property="HEIGHT">200</defaultValue>
-			<defaultValue property="runtimedata">{}</defaultValue>
 			<defaultValue property="feedurldimension">
-				http://cdn.eex.com/rss/de/market.rss
-			</defaultValue>
-			<defaultValue property="xslurldimension">
-				test/rss.xsl
-			</defaultValue>
-			<defaultValue property="cssurldimension">
-				http://localhost:57003/aad/zen/mimes/YOUR_APP_NAME/test.css
+				http://feeds.abcnews.com/abcnews/internationalheadlines
 			</defaultValue>
 		</initialization>
 	</component>

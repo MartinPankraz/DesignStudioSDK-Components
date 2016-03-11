@@ -19,115 +19,94 @@
  */
 //Workaround to extract relative project path to address project ressources properly in local mode and bi-plattform
 //@see http://scn.sap.com/community/businessobjects-design-studio/blog/2014/08/15/sdk-tips-and-tricks-resources-and-images
-(function() {
-var scriptSrc = $("script:last")[0].src;//.attr("src");
 
-if(sap.zen.createStaticSdkMimeUrl != undefined) {
-	scriptSrc = sap.zen.createStaticSdkMimeUrl("org.pankraz.newsfeedreader", "res/js/");
-}
-//tmp hack for local mode in DS15 (maybe BIP as well?)
-if(scriptSrc === ""){
-	scriptSrc = '/aad/zen/mimes/sdk_include/org.pankraz.newsfeedreader/res/js/';
-}
+define(["sap/designstudio/sdk/component", "css!../js/css/iframe.css"], function(Component) { //use loaded libs
+	Component.subclass("org.pankraz.newsfeedreader.reader", /** @memberOf org.pankraz.newsfeedreader.reader*/function() {
+		
+		var libPath = sap.zen.createStaticSdkMimeUrl("org.pankraz.newsfeedreader", "res/js/");
 
-sap.designstudio.sdk.Component.subclass("org.pankraz.newsfeedreader.reader", /** @memberOf org.pankraz.newsfeedreader.reader*/function() {
-
-	var meta_data 					= null;
-//	var runtime_data 				= null;
-	var saveFeedUrlDimension 		= null;
-	var saveXslUrlDimension			= null;
-	var saveCSSUrlDimension			= null;
-	var that						= this;
-	
-	var rss_container				= 'RSSContainerForIFrame.html?' + Math.random() + "&";	// Cache-busting
-	
-	/**
-	 * @desc First function called during SAP Design Studio Plugin Lifecycle
-	 * @memberOf init
-	 */
-	this.init = function() {
+		var saveFeedUrlDimension 		= null;
+		var saveXslUrlDimension			= null;
+		var saveCSSUrlDimension			= null;
 		
-		this.projectLocationUrl = "";
-		//Workaround to extract relative project path to address project resources properly in local mode and bi-plattform
-		if(scriptSrc){
-			this.projectLocationUrl = scriptSrc.substring(0, scriptSrc.indexOf("js/")+3);	
-		}
+		var that						= this;
 		
-	};
-	/**
-	 * @function beforeUpdate
-	 */
-	this.beforeUpdate = function(){};
-	/**
-	 * @function afterUpdate
-	 */
-	this.afterUpdate = function() {
-		//Determin if user wants to use default XSL or not due to special internal path handling
-		var xslLocation = this.projectLocationUrl;
-		if(saveXslUrlDimension.indexOf("http://") !== -1 || saveXslUrlDimension.indexOf("https://") !== -1){
-			xslLocation = saveXslUrlDimension;
-		}
-		else{
-			xslLocation += saveXslUrlDimension;
-		}
+		var rss_container				= 'RSSContainerForIFrame.html?ccid=' + Math.random() + "&";	// Cache-busting
 		
-		var url_string = "";
+		/**
+		 * @desc First function called during SAP Design Studio Plugin Lifecycle
+		 * @memberOf init
+		 */
+		this.init = function() {};
+		/**
+		 * @function beforeUpdate
+		 */
+		this.beforeUpdate = function(){};
+		/**
+		 * @function afterUpdate
+		 */
+		this.afterUpdate = function() {
+			if(saveFeedUrlDimension !== ""){
+				if(saveXslUrlDimension !== ""){
+					xslLocation = "../../../../../../"+saveXslUrlDimension
+				}else{
+					xslLocation = "test/rss.xsl";	
+				} 
+				
+				var url_string = "";
+				
+				if(saveCSSUrlDimension !== ""){
+					saveCSSUrlDimension = "../../../../../../"+saveCSSUrlDimension;
+					url_string = libPath+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation+"&"+'css='+saveCSSUrlDimension;	
+				}
+				else{
+					url_string = libPath+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation;
+				}
+				
+				var html = '<iframe id="feed_container'+getTimeStamp()+'" src="'+url_string+'" width="auto" height="auto"></iframe>';			
+				var t = this.$().html(html);
+			}else{
+				var t = this.$().html('<div><h1>No RSS feed url provided!</h1></div>');
+			}	
+		};
 		
-		if(saveCSSUrlDimension !== undefined && saveCSSUrlDimension !== ""){
-			url_string = encodeURI(this.projectLocationUrl+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation+"&"+'css='+saveCSSUrlDimension);	
-		}
-		else{
-			url_string = encodeURI(this.projectLocationUrl+rss_container+'feed='+saveFeedUrlDimension+"&"+'xsl='+xslLocation);
-		}
+		/**
+		 * @function componentDeleted
+		 */
+		this.componentDeleted = function(){};
 		
+		// property setter/getter functions. Names have to match .ztl file defintions and
+		// vice versa if intended to expose to other Design Studio components	
 		
-		var html = '<iframe id="feed_container" src="'+url_string+'" width="auto" height="auto"></iframe>';			
-		var t = this.$().html(html);
-	};
-	
-	/**
-	 * @function componentDeleted
-	 */
-	this.componentDeleted = function(){};
-	
-	// property setter/getter functions. Names have to match .ztl file defintions and
-	// vice versa if intended to expose to other Design Studio components	
-	this.metadata = function(value) {
-		if (value === undefined) {
-			return meta_data;
-		} else {
-			meta_data = value;
-			return this;
+		this.feedurldimension = function(value) {
+			if (value === undefined) {
+				return saveFeedUrlDimension;
+			} else {
+				saveFeedUrlDimension = encodeURI(value);
+				return this;
+			}
+		};
+		
+		this.xslurldimension = function(value) {
+			if (value === undefined) {
+				return saveXslUrlDimension;
+			} else {
+				saveXslUrlDimension = encodeURI(value);
+				return this;
+			}
+		};
+		
+		this.cssurldimension = function(value) {
+			if (value === undefined) {
+				return saveCSSUrlDimension;
+			} else {
+				saveCSSUrlDimension = encodeURI(value);
+				return this;
+			}
+		};
+		
+		function getTimeStamp(){
+			return new Date().getTime();
 		}
-	};
-	
-	this.feedurldimension = function(value) {
-		if (value === undefined) {
-			return saveFeedUrlDimension;
-		} else {
-			saveFeedUrlDimension = encodeURI(value);
-			return this;
-		}
-	};
-	
-	this.xslurldimension = function(value) {
-		if (value === undefined) {
-			return saveXslUrlDimension;
-		} else {
-			saveXslUrlDimension = encodeURI(value);
-			return this;
-		}
-	};
-	
-	this.cssurldimension = function(value) {
-		if (value === undefined) {
-			return saveCSSUrlDimension;
-		} else {
-			saveCSSUrlDimension = encodeURI(value);
-			return this;
-		}
-	};
-	
+	});
 });
-
-})();

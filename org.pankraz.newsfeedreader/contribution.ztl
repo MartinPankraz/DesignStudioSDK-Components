@@ -4,8 +4,16 @@ class org.pankraz.newsfeedreader.reader extends Component {
 		this.feedurldimension = url_string;
 	*}
 	
-	String setXslUrl(String url_string){*
-		this.xslurldimension = url_string;
+	String getFeedUrl(){*
+		return this.feedurldimension;
+	*}
+	
+	String setCssUrl(String url_string){*
+		this.cssurldimension = url_string;
+	*}
+	
+	String getCssUrl(){*
+		return this.cssurldimension;
 	*}
 	
 }

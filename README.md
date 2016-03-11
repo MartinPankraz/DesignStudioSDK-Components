@@ -5,7 +5,7 @@ Design Studio SDK Components by Martin Pankraz.
 
 Prerequisites
 --------------------------
-Design Studio, Release 1.4 SP1 or higher.
+Design Studio, Release 1.6 SP0 or higher.
 
 Content
 --------------------------
@@ -16,15 +16,11 @@ This component provides a customizable IFrame with default scroll bars. Just put
 
 <b>NewsFeedReader (RSS)</b>
 
-As an extension of the component mentioned above, the NewsFeedReader utilizes the IFrame-container to render the feed into. In order to retrieve the feed, Google feed API and jsonp are used to overcome common browsers CROSS ORIGIN request restrictions. Due to the fact that RSS feeds are XML documents, common browser's internal XSLT functionality (except for IE11 at the moment) is used to render the content as XHTML (Please note that the actual feed will not show up in Design Studio during design time at the moment because of an IE bug. I will update the component as soon as a fix is available).
+As an extension of the component mentioned above, the NewsFeedReader utilizes the IFrame-container to render the feed into. In order to retrieve the feed, Google feed API and jsonp are used to overcome common browsers CROSS ORIGIN request restrictions. Due to the fact that RSS feeds are XML documents, common browser's internal XSLT functionality is used to render the content as XHTML.
 
-Feed URL and XSL file URL are customizable (XSL, however, must reside within the same domain). The component provides a default stylesheet to transform XML (RSS) into XHTML. At first use of the component you might encounter an error, which is related to a Design Studio BUG when dropping an SDK component onto a blank app (only with DS 1.3). Just ignore the message, save and reload your app. One more configuration step is necessary so that the component works correctly. Put your application prefix in the components properties (default is "/aad/"). You can look it up in your URL while running a Design Studio App. It will be located next to \<web address\>:\<port\> and before "web.do".
+Feed URL and XSL file URL are customizable (XSL, however, must reside within the same domain). The component provides a default stylesheet to transform XML (RSS) into XHTML.
 
-If you want to apply custom CSS styling to the IFrame holding the feed just use the property "Custom CSS URL". For example point the url to your local application:
-
-http://localhost:57003/aad/zen/mimes/YOUR_APP_NAME/test.css
-
-But keep in mind that you might need to fix your jetty port for local mode (Tools -> Preferences -> Network Port)
+If you want to apply custom CSS styling to the IFrame holding the feed just use the property "Custom CSS URL".
 
 <b>MapsExampleDataSource (only DS 1.4+)</b>
 

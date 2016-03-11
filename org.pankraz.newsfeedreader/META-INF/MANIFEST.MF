@@ -3,5 +3,5 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Design Studio SDK Extension MartinPankraz NewsFeedReader
 Bundle-SymbolicName: org.pankraz.newsfeedreader;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk.eclipse
+Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk
 Bundle-Vendor: Martin Pankraz
